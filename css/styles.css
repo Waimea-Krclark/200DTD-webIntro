@@ -1,0 +1,36 @@
+/* Target main header only - header is direct child of body */ 
+body > header{ 
+    position: sticky; 
+    top: 0; 
+    background-color: var(--pico-background-color); 
+    box-shadow: 0 0 1rem var(--pico-background-color); 
+} 
+ 
+section#hero{ 
+    min-height: 30rem; 
+    text-align: center; 
+    background-color: var(--pico-primary-border); 
+    display: flex; 
+    justify-content: center;     
+    align-items: center; 
+    margin: 1px; 
+    margin-bottom: 3rem; 
+    border-radius: 2rem; 
+     
+} 
+ 
+section#hero h1{ 
+    font-size: 5rem; 
+ 
+} 
+ 
+section#likes div{ 
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 1rem; 
+} 
+ 
+section#likes article{
+    flex: 1;
+    min-width: 15rem;
+}
